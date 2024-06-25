@@ -1,0 +1,109 @@
+.main-home-section{
+  background-color: rgba(156, 134, 77, 0.175);
+}
+
+
+
+.contact-container {
+  border-radius: 0.7em;
+  box-shadow: 0em 0.1em 1.1em rgb(236, 236, 236);
+  background-color: #ebb94d73;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 22px;
+}
+
+.card {
+  overflow: hidden;
+  
+  box-shadow: 0em 0.1em 1.1em rgb(236, 236, 236);
+  transition: box-shadow 0.3s;
+  &:hover {
+    box-shadow: 0 0.4em 1.1em rgba(0, 0, 0, 0.363);
+  }
+}
+
+.imageCard-container {
+  height: 45%;
+}
+
+.card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0.7em 0.7em 0 0;
+  filter: grayscale(20%);
+  transition: 0.3s;
+  &:hover {
+    filter: grayscale(0%);
+  }
+}
+
+.card-content {
+  padding: 1em;
+  height: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-text {
+  color: #2d2d2e;
+  justify-content: space-between;
+}
+
+.card-text span {
+  font-size: 0.75em;
+  font-weight: 500;
+  background-color: #ebb94d73;
+  color: #3b2a05;
+  padding: 0.15rem 0.2rem;
+  border-radius: 0.3rem;
+}
+
+.card-text h3 {
+  font-size: 1.4em;
+  margin: 0.4em 0;
+  font-weight: 600;
+}
+
+.card-text p {
+  font-size: 0.875em;
+  margin: 0;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.596);
+}
+
+.card-button {
+  width: 100%;
+  padding-bottom: 0.5rem;
+}
+
+.card-button button {
+  cursor: pointer;
+  width: 100%;
+  height: 2.5em;
+  border: none;
+  color: #ffffff;
+  font-size: 1em;
+  font-weight: bold;
+  border-radius: 0.5em;
+  background-color: #1d8b54e7;
+  transition: 0.3s;
+  &:hover {
+    background-color: #126d4e;
+  }
+}
+
+.card-details {
+  line-height: 1.3em;
+  padding: 0.5rem 0;
+}
+
+.card-details span {
+  font-size: 0.8em;
+  font-weight: 400;
+  color: #2d2d2e;
+}
